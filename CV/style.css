@@ -1,0 +1,557 @@
+
+
+
+a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/*Esto es para la presentacion inicial */
+.titulo 
+{
+    background-image: url(../IMAGENES/FONDO/edificio\ 7.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: 'Tangerine', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%
+}
+.profesion 
+{
+    font-family: 'Unna', serif;
+    color: rgb(212, 153, 63);
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+    margin-right: 12rem;
+}
+.fotoperfil 
+{
+    margin-right: 5%;
+    width: 25%;
+    height: auto;
+}
+.nombre
+{
+color: #ffffff;
+font-size: 5rem;
+font-weight: 1000;
+margin-right: 12rem;
+}
+.container1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    ;
+}
+.container1 li a
+{
+    margin: 10px;
+}
+
+/*Sobre mi */
+.sobremi
+{
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    text-align: center;
+    color:  rgb(212, 153, 63);
+    margin-top: 3rem
+    ;
+}
+
+
+.SmDescripcion
+{
+font-family: 'Unna', serif;
+font-size: 21px;
+margin-block: 2rem;
+padding-bottom: 4rem;
+color: #504F4C;
+padding-left: 10rem;
+padding-right:10rem;
+text-align: center;
+}
+
+.descarga
+{
+    padding-bottom: 5rem;
+    text-align: center;
+}    
+/* Boton de descargar cv */
+.btn-cv
+{
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    background:rgb(212, 153, 63);
+    outline: none ;
+    border-radius: 0;
+    transition: opacity .2s ease-out;
+    text-align: center;
+    font-family: 'Unna', serif;
+    
+
+
+}
+
+.btn-cv:hover
+{
+    color:  #504F4C;
+    background-color: #fff;
+    opacity: 0.9;
+    text-align: center;
+    font-family: 'Unna', serif;
+}
+
+
+
+
+/*Formacion academica */
+.contenedor-titulo 
+{
+    font-family: 'Tangerine';
+    font-size: 60px;
+    font-weight: 100;
+    color:  rgb(212, 153, 63);
+    overflow-x: hidden;
+    margin-bottom: 3rem;
+    margin-block: 3rem;
+    text-align: center;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+.alinear-fecha 
+{
+    font-family: 'Unna', serif;
+    text-align-last: center ;
+    color: #fff;
+}
+h6.alinear-fecha 
+{
+    font-weight: 700;
+    font-size: 20px;
+    color:  rgb(212, 153, 63);
+}
+h5.alinear-fecha 
+{    
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+}
+    .descripcion 
+    {
+        font-family: 'Unna', serif;
+        font-size: 15px;
+        font-weight: 300;
+        color: rgb(216, 189, 149);
+        overflow-x: hidden;
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: 0;
+        margin-bottom: 4rem;
+        text-align-last: center
+
+    }
+
+/*Mostrar las herramientas de trabajo */
+p
+{
+    font-family: 'Unna', serif;
+    text-align: center;
+    color: #504f4c;
+}
+
+
+.imagen
+{
+    text-align: center;
+}
+
+
+
+
+
+/*Esto vendria a ser lo del carrusel */
+.descripcionproyecto
+{
+color: #ffffff;
+font-family: 'Unna', serif;
+font-size: 20px;
+}
+
+
+
+
+
+/*Esto vendria a ser lo que contiene la informacion para contactarse */
+.Footercomunicacion
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0.01em;
+    word-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgb(212, 153, 63) ;
+    font-family: 'Unna', serif;
+}
+.profesion1
+{
+    font-family: 'Unna', serif;
+    color: #504f4c;
+}
+#form textarea.form-control {
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    line-height: 20px;
+    padding-top: 5px;
+    font-size: 17px;
+}
+#form .form-control 
+{
+    background: transparent !important;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 64px;
+    -webkit-transition: border-color .3s ease-out;
+    transition: border-color .3s ease-out;
+    border-radius: 2px;
+    font-family: 'Unna', serif;
+}
+
+#form .form-group 
+{
+    position: relative;
+    padding-left: 4rem;
+}
+#form .form-group [class*=fa] {
+    display: block;
+    width: 64px;
+    position: absolute;
+    top: 5PX;
+    left: 5px;
+    color:  rgb(212, 153, 63);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    opacity: 0.5;
+    transition: opacity .2s ease-out;
+    padding-left: 5.5rem;
+}
+
+
+
+/*CUADRO DE LINEAS  NOMBRE-EMAIL-MENSAJE*/
+    #form .controls 
+    {
+        padding: 0;
+        margin-bottom: 30px;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        font-family: 'Unna', serif;
+    }
+
+    #form.no-placeholder .form-group [class*=fa] {
+        top: 30px;
+    }
+    #form .form-control:focus+[class*=fa] {
+        opacity: 1;
+    }
+    
+    #form .form-control:focus {
+        background: #fff;
+        border-bottom: 3px solid #504F4C;
+        outline: none;
+        box-shadow: none;
+        -webkit-transition: border-color .3s ease-in;
+        transition: border-color .3s ease-in;
+    }
+    
+
+
+/* Boton de enviar mensaje */
+.btn-color1,
+.btn-color2 {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    background:#504f4c;
+    outline: none !important;
+    border-radius: 0;
+    transition: opacity .2s ease-out;
+}
+.fa-paper-plane
+{
+    PADDING-RIGHT: 1REM;
+}
+.btn-color1:hover,
+.btn-color2:hover {
+    color:  rgb(212, 153, 63);
+    background-color: #fff;
+    opacity: 0.9;
+}
+.btn-color1:focus,
+.btn-color1:active,
+.btn-color2:focus,
+.btn-color2:active {
+    color: #fff;
+}
+
+
+body {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #6d6d6d;
+    overflow-x: hidden;
+
+}
+
+/*Esto vendria a ser lo ultimo en footer */
+.add-padding 
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+p.text-center
+{
+    color: #ffffff;
+    font-family: 'Unna', serif;
+    text-align: center;
+    font-size: 15px;
+}
+h7
+{
+color: rgb(212, 153, 63);
+}
+.social-links li a 
+{
+    display: block;
+    color: rgb(212, 153, 63);
+    font-size: 21px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+
+
+/* VER*/
+#main-footer {
+    background: #fff;
+}
+#main-footer p a {
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* redes sociales */
+.social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.social-links li {
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 3px;
+    box-shadow: 0 4px 0 transparent;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.social-links li a:hover {
+    color: #2b3131;
+    background: #fff;
+}
+
+
+
+
+/* probando en telefono */
+@media (max-width: 900px)
+    
+{
+
+    #form textarea.form-control {
+        height: auto;
+        max-width: 100%;
+        min-width: 100%;
+        line-height: 10px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    #form .form-control 
+    {
+        border: none;
+        border-bottom: 3px solid transparent;
+        border-radius: 0;
+        outline: none;
+        box-shadow: none;
+        height: 25px;
+        font-size: 14px;
+        font-weight: 100;
+        padding-left: 64px;
+        -webkit-transition: border-color .3s ease-out;
+        transition: border-color .3s ease-out;
+        border-radius: 2px;
+        font-family: 'Unna', serif;
+    }
+
+}
+
+
+
+
+@media (max-width: 500px) {
+    .titulo 
+{
+    width: 100%;
+}
+.profesion 
+{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+.fotoperfil 
+{
+    width: 40%;
+    height: auto;
+    margin-bottom: 0px;
+}
+.nombre
+{
+font-size: 2.5rem;
+font-weight: 500;
+margin-right: auto;
+}
+.container1
+{   margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container1 li a
+{
+    margin: 5px;
+}
+.social-links li a 
+{
+    font-size: 12px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.sobremi
+{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.SmDescripcion
+{
+font-size: 1rem;
+margin-block: 1rem;
+padding-bottom: 2rem;
+color: #504F4C;
+padding-left: 2rem;
+padding-right:2rem;
+text-align: center;
+}
+.btn-cv
+{
+    padding: 5px 20px;
+}
+
+.contenedor-titulo 
+{
+    font-size: 40px;
+    margin-bottom: 1rem;
+    margin-block: 1rem;
+}
+.alinear-fecha 
+{
+    font-family: 'Unna', serif;
+    text-align-last: center ;
+    color: #fff;
+}
+h6.alinear-fecha 
+{
+    font-size: 15px;
+
+}
+h5.alinear-fecha 
+{    
+    font-size: 20px;
+}
+.descripcion 
+{
+        font-size: 10px;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        text-align-last: center
+    }
+
+    .imagen
+    {
+    display: flex;
+    text-align: center;
+    width: 85%;
+    height: auto;
+    }
+    .icono{
+        font-size: 0.5rem;
+    }
+
+    .Footercomunicacion
+{
+    font-size: 30px;
+}
+.btn-color1,
+.btn-color2 {
+    padding: 5px 20px;
+}
+.add-padding 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#form .form-group 
+{
+    position: relative;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+
+    #form .form-group [class*=fa] {
+        padding-left: 1.5rem;
+    }
+}
